@@ -31,13 +31,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/dannybozbay/Qiskit-Tutorials">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*lz1Y0wI_nIfoFfF5" alt="Logo" width="200" height="100">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Quantum Computing with Qiskit: Interactive Tutorials</h3>
 
   <p align="center">
-    project_description
+    Embark on a journey through the Basics of Quantum Information course by IBM with these interactive Jupyter notebooks, guiding you from theoretical concepts to practical Qiskit implementations.
     <br />
     <a href="https://github.com/dannybozbay/Qiskit-Tutorials"><strong>Explore the docs »</strong></a>
     <br />
@@ -59,22 +59,21 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#purpose">Purpose</a></li>
+        <li><a href="#whats-included">What's Included</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites-and-installation">Prerequisites and Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -83,83 +82,70 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `dannybozbay`, `Qiskit-Tutorials`, `twitter_handle`, `dannybozbay`, `gmail.com`, `dannybozbay`, `project_title`, `project_description`
+Welcome to the Quantum Computing Tutorials repository! 🌟
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This collection of Jupyter notebooks serves as a comprehensive guide for beginners delving into the fascinating world 
+of quantum computing using the Qiskit framework in Python.
+
+### Purpose
+The primary goal of this project is to provide clear and concise tutorials that bridge the gap between theoretical 
+concepts and practical implementation. Each notebook is designed to guide you through fundamental topics covered in the 
+Basics of Quantum Information course by IBM, offering step-by-step explanations and hands-on exercises.
+
+### What's Included
+
+- **Mathematical Foundations**: Gain a solid understanding of the mathematical principles underpinning quantum information 
+and computation for both single and multiple systems.
+
+
+- **Quantum Circuits**: Learn how to construct and manipulate quantum circuits using Qiskit, exploring various gates and operations.
+
+
+- **Key Examples**: Dive into three crucial examples — quantum teleportation, superdense coding, and the CHSH game — all illustrating the fascinating phenomena of entanglement and quantum information processing.
 
 
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Python][Python.js]][Python-url]
+* [![Qiskit][Qiskit.js]][Qiskit-url]
+* [![Numpy][Numpy.js]][Numpy-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### Prerequisites and installation
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/dannybozbay/Qiskit-Tutorials.git
+   git clone https://github.com/dannybozbay/Qiskit-Tutorials
    ```
-3. Install NPM packages
+
+2. Create a Python (3.11 or higher) environment with the required dependencies
    ```sh
-   npm install
+   cd Qiskit-Tutorials
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Lesson 1 - Single Systems
+- [ ] Lesson 2 - Multiple Systems
+- [ ] Lesson 3 - Quantum Circuits
+- [ ] Lesson 3 - Quantum Entanglement
 
-See the [open issues](https://github.com/dannybozbay/Qiskit-Tutorials/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,16 +189,6 @@ Project Link: [https://github.com/dannybozbay/Qiskit-Tutorials](https://github.c
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -229,6 +205,9 @@ Project Link: [https://github.com/dannybozbay/Qiskit-Tutorials](https://github.c
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/dannybozbay
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[Python.js]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Qiskit.js]: https://img.shields.io/badge/Qiskit-%236929C4.svg?style=for-the-badge&logo=Qiskit&logoColor=white
+[Numpy.js]: https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white
+[Python-url]: https://www.python.org
+[Qiskit-url]: https://www.ibm.com/quantum/qiskit
+[Numpy-url]: https://numpy.org
